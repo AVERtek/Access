@@ -128,13 +128,13 @@ var getOutboundLink = function(url) {
   padding: 10px;
   margin: 0 0 1em 0;
 }
-<!--.card1 {
+ .card1 {
   break-inside: avoid;
   background-color: #2c3d31;
   border: 2px solid rgb(44, 61, 49);
   padding: 5px;
   margin: 0 0 1em 0;
-} -->
+}
 }
   .stack-top{
    z-index: 9;
@@ -172,29 +172,65 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <img class="marginauto" src="images/Alexan Access Logo No Bkgd25f.png" alt="Logo" style="max-width: 100%; max-height: 100%"> 
       <h2 style="text-align: center;" markdown="1"><b style="color:#ffffff;"><p style="font-family:Arial"> LIFE CONNECTED</p></h2></b>
       <h2 style="text-align: center;" markdown="1"><b style="color:#ffffff;"><p style="font-family:Arial"> LUXE BOUTIQUE APARTMENT HOMES</p></h2></b>
-      <h2 style="text-align: center;" markdown="1"><b style="color:#e79b6e;"><p style="font-family:Arial"> OPENING THIS SPRING</p></h2></b>
+      <h2 style="text-align: center;" markdown="1"><b style="color:#e79b6e;"><p style="font-family:Arial"> NOW OPEN</p></h2></b>
      </div>
      
  <div class="card"> 
-    <model-viewer loading="eager" src="Models/SECOND_FLOORPLAN_MOD_4.glb" camera-controls  
-                  camera-orbit="0deg 22.5deg 75%" autoplay animation-name="" id="model-viewer" id="reveal" exposure="1" shadow-intensity="1" ar ar-modes="scene-viewer webxr quick-look" ios-src="Models/SECOND_FLOORUSDZ.usdz"
-                    alt="NOHO WEST" auto-rotate-delay="0" ar-scale="auto"
-                    slot= "progress-bar"
-                    style="z-index: 1; width: 100%; height: 480px; position: static; ">
-                    <button slot="ar-button" 
-                    style="z-index: 9; background-color: #ffffff; border-radius: 8px; border: 1 px solid white; position: absolute; top: 2px; right: 0; height: 40px; width: auto; ">
+  <model-viewer loading="eager" src="Models/CAMILLE_FINAL_FINALLY_0_TO_2600b.glb?sound=Sound/Camille Poolside Complete Audio Track_EditV3.wav" camera-controls
+                   camera-orbit="0deg 45deg 10%" autoplay animation-name="" id="interaction" id="reveal" exposure="1" shadow-intensity="1" ar ar-modes="scene-viewer webxr quick-look" ios-src="Models/CAMILLE_FINAL_FINALLY_0_TO_2600b.reality"
+                   alt="NOHO WEST" auto-rotate-delay="0" ar-scale="auto"
+                   slot= "progress-bar"
+                   style="z-index: 1; width: 100%; height: 480px; position: static; ">
+                   <button slot="ar-button" 
+                   style="z-index: 9; background-color: #FFFFFF; border-radius: 8px; border: 1 px solid white; position: absolute; top: 2px; right: 0; height: 40px; width: auto; ">
 
-                     👆 <b style="color:#0C2622;"><strong>EXPLORE AR HERE</strong></b></button>   
-               
-  </model-viewer>
-    </div>
+                     👆 <b style="color:#0C2622;"><strong>CAMI'S AR POOL TOUR</strong></b></button>
    
-     
+                 
+<div class="card1">
+      <model-viewer id="model-viewer" loading="eager" src="Models/CAMILLE_SCENE_ONE_FINAL.glb?sound=Sound/CAMILLE_EDITED_VOICE78.20.wav" camera-controls interaction-prompt="none" 
+                   camera-orbit="0deg 75deg 80%" autoplay animation-name="" id="reveal" ios-src="Models/Camille scene one final.reality"
+                   alt="Access Camille" auto-rotate-delay="0" ar-scale="auto" camera-controls alt="Access Camille"
+                   style="z-index: 1; width: 100%; height: 480px; position: static; ">
+    
+        
+     </model-viewer>
+     </div>   
+   </model-viewer>
+        </div>
+   
+    <section class="attribution">
+        <div>
+          <span>
+            <h1 style="text-align: center;" markdown="1"><b style="color:#FFFFFF;"><p style="font-family:Avenir Next LT Pro">Meet Camille</b>
+              <p align="center">
+              <span>
+              <audio controls autoplay loop id="sound">
+                <source src="Sound/CAMILLE_EDITED_VOICE78.20.wav"/>
+              </audio
+            ></span> 
+             </p>
+            </span>
+         </div>
+   </section>
+   <script>    
+        window.addEventListener("load", () => {
+          Sync("#model-viewer", "#sound");
+        });
+      </script>   
+   <div class="centerImage">   
+   <button onclick="location.href='https://avertek.github.io/Access-Pool/'" type="button" slot="" 
+                    style="z-index: 9; background-color: #e79b6e; border-radius: 8px; border: 1 px solid white; position: static; height: 35px; width: auto;
+                          color:#000000; font-family:Avenir Next LT Pro"><strong>3D POOL TOUR</strong>
+       </button> 
+         </div>
+         <br><br>
+      
   <div class="card">
-     <h2 style="text-align: center;" markdown="1"><p style="font-family:Arial"><a href="https://alexanaccess.com/floor-plans/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://alexanaccess.com/floor-plans/?utm_source=AVERtek&utm_medium=AR');return false;"><b style="color:#e79b6e;"><b> <ins>FLOORPLAN POSSIBILITIES</ins></b></b></h2></a></p></a></h2>
+     <h2 style="text-align: center;" markdown="1"><p style="font-family:Arial"><a href="https://avertek.github.io/Access-Floorplan/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://avertek.github.io/Access-Floorplan/?utm_source=AVERtek&utm_medium=AR');return false;"><b style="color:#e79b6e;"><b> <ins>CAMILLE'S 4D/AR FLOORPLAN</ins></b></b></h2></a></p></a></h2>
      <h2 style="text-align: center;" markdown="1"><p style="font-family:Arial"><a href="https://alexanaccess.com/amenities/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://alexanaccess.com/amenities/?utm_source=AVERtek&utm_medium=AR');return false;"><b style="color:#e79b6e;"><b> <ins>CURATED AMENITIES</ins></b></b></h2></a></p></a></h2>
      <h2 style="text-align: center;" markdown="1"><p style="font-family:Arial"><a href="https://alexanaccess.com/neighborhood/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://alexanaccess.com/neighborhood/?utm_source=AVERtek&utm_medium=AR'); return false;"><b style="color:#e79b6e;"><b> <ins>CENTERED IN THE NORTHWEST</ins></b></h2></a></p></a>
-     <h2 style="text-align: center;" markdown="1"><p style="font-family:Arial"><a href="https://alexanaccess.com/#signup/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://alexanaccess.com/#signup/?utm_source=AVERtek&utm_medium=AR'); return false;"><b style="color:#e79b6e;"><b> <ins>JOIN OUR VIP WAITLIST</ins></b></h2></a></p></a>  
+     <h2 style="text-align: center;" markdown="1"><p style="font-family:Arial"><a href="https://alexanaccess.securecafe.com/onlineleasing/alexan-access/guestlogin.aspx?propleadsource_1638413=portal/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://alexanaccess.securecafe.com/onlineleasing/alexan-access/guestlogin.aspx?propleadsource_1638413=portal/?utm_source=AVERtek&utm_medium=AR'); return false;"><b style="color:#e79b6e;"><b> <ins>APPLY TODAY</ins></b></h2></a></p></a>  
      <h2 style="text-align: center;" markdown="1"><p style="font-family:Arial"><a href="mailto:AlexanAccess.AVERtek.SaresRegis@aptleasing.info?Subject=Requesting20%VIP20%Tour20%Alexan Access" onclick="getOutboundLink('mailto:AlexanAccess.AVERtek.SaresRegis@aptleasing.info?Subject=Requesting VIP Tour Alexan Access;'); return false;"><b style="color:#e79b6e;"><b> <ins>EMAIL US</ins></b></h2></a></p></a>   
      <h2 style="text-align: center;" markdown="1"><p style="font-family:Arial"><a href="tel:+18335129823"><b style="color:#e79b6e;"><ins>833-512-9823</ins></a></b></b></p></h2>
    <br>
